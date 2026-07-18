@@ -170,6 +170,10 @@ Build products, dependency checkouts, test caches, and Python bytecode are inten
 - **ST7789 display support:** The included display driver and bitmap fonts are pinned from the MIT-licensed [`russhughes/st7789py_mpy`](https://github.com/russhughes/st7789py_mpy) project. See the [display-driver provenance record](vendor/st7789py_mpy/UPSTREAM.md) for the commit, source paths, and checksums.
 - **RGB effects:** The MicroPython effects engine is an independent implementation inspired by the MIT-licensed [`kitesurfer1404/WS2812FX`](https://github.com/kitesurfer1404/WS2812FX) project and FastLED's [`Pride2015`](https://github.com/FastLED/FastLED/blob/master/examples/Pride2015/Pride2015.ino) example. See the [RGB-effects provenance record](vendor/rgb-effects/UPSTREAM.md).
 
+## License
+
+OpenKeiko-authored firmware and documentation in this repository are available under the [MIT License](LICENSE). Third-party files retain the licenses and notices recorded under `vendor/`. The GPL-3.0 Flipper Zero firmware is referenced for public formats and behavior only; no Flipper Zero source files are vendored or ported here.
+
 ## Independence
 
 OpenKeiko is an independent community effort. It is not affiliated with, endorsed by, or sponsored by the original device project, its creators, or its maintainers. Product names and trademarks belong to their respective owners.
