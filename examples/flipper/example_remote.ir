@@ -1,0 +1,16 @@
+Filetype: IR signals file
+Version: 1
+#
+# Parsed NEC example. Replace values with your own remote capture.
+name: Example_NEC
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+#
+# Raw timing example: mark, space, mark, space, ... in microseconds.
+name: Example_RAW
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9000 4500 562 562 562 1687 562
