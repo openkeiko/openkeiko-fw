@@ -18,6 +18,10 @@ Sub-GHz and infrared support is deliberately rudimentary:
   <img src="assets/openkeiko-hardware-demo.jpg" alt="OpenKeiko alpha dashboard running on FW1 hardware" width="560">
 </p>
 
+## Hardware Documentation
+
+The companion [`openkeiko-docs`](https://github.com/openkeiko/openkeiko-docs) repository contains the hardware overview, pinout, system architecture, peripheral references, and recovery documentation used alongside this firmware.
+
 ## Safety And Responsibility
 
 Use this firmware entirely at your own risk. The OpenKeiko authors and contributors are not responsible for damaged devices, corrupted flash, lost data, battery or power-system problems, connected-hardware damage, radio or infrared interference, or any other direct or indirect loss resulting from building, flashing, deploying, modifying, or running this software.
